@@ -1,3 +1,13 @@
 "Test,Original(ms),Optimized(ms)"  
 Test,Original,1042.36
 Test,Optimized,0.33
+Test,Original,1047.86
+Test,Optimized,0.13
+Test,Original,1051.56
+Test,Optimized,0.13
+Test,Original,1039.96
+Test,Original,1040.81
+Test,Optimized,0.14
+Test,Original,1043.31
+Test,Optimized,0.13
+Test,Original,1042.24
