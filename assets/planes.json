@@ -1,602 +1,602 @@
 [
     {
         "id": "PL1001",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 153
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 84
     },
     {
         "id": "PL1002",
-        "type": "takeoff",
+        "type": "landing",
         "priority": 1,
-        "arrival_time": 113
+        "arrival_time": 226
     },
     {
         "id": "PL1003",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 183
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 23
     },
     {
         "id": "PL1004",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 40
-    },
-    {
-        "id": "PL1005",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 184
-    },
-    {
-        "id": "PL1006",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 273
-    },
-    {
-        "id": "PL1007",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 141
-    },
-    {
-        "id": "PL1008",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 240
-    },
-    {
-        "id": "PL1009",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 265
-    },
-    {
-        "id": "PL1010",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 212
-    },
-    {
-        "id": "PL1011",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 136
-    },
-    {
-        "id": "PL1012",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 275
-    },
-    {
-        "id": "PL1013",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 242
-    },
-    {
-        "id": "PL1014",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 91
-    },
-    {
-        "id": "PL1015",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 155
-    },
-    {
-        "id": "PL1016",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 160
-    },
-    {
-        "id": "PL1017",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 225
-    },
-    {
-        "id": "PL1018",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 83
-    },
-    {
-        "id": "PL1019",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 173
-    },
-    {
-        "id": "PL1020",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 107
-    },
-    {
-        "id": "PL1021",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 285
-    },
-    {
-        "id": "PL1022",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 100
-    },
-    {
-        "id": "PL1023",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 264
-    },
-    {
-        "id": "PL1024",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 140
-    },
-    {
-        "id": "PL1025",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 129
-    },
-    {
-        "id": "PL1026",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 285
-    },
-    {
-        "id": "PL1027",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 151
-    },
-    {
-        "id": "PL1028",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 65
-    },
-    {
-        "id": "PL1029",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 81
-    },
-    {
-        "id": "PL1030",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 132
-    },
-    {
-        "id": "PL1031",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 181
-    },
-    {
-        "id": "PL1032",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 204
-    },
-    {
-        "id": "PL1033",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 280
-    },
-    {
-        "id": "PL1034",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 274
-    },
-    {
-        "id": "PL1035",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 220
-    },
-    {
-        "id": "PL1036",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 83
-    },
-    {
-        "id": "PL1037",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 82
-    },
-    {
-        "id": "PL1038",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 202
-    },
-    {
-        "id": "PL1039",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 191
-    },
-    {
-        "id": "PL1040",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 56
-    },
-    {
-        "id": "PL1041",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 151
-    },
-    {
-        "id": "PL1042",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 121
-    },
-    {
-        "id": "PL1043",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 178
-    },
-    {
-        "id": "PL1044",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 273
-    },
-    {
-        "id": "PL1045",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 161
-    },
-    {
-        "id": "PL1046",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 113
-    },
-    {
-        "id": "PL1047",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 275
-    },
-    {
-        "id": "PL1048",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 175
-    },
-    {
-        "id": "PL1049",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 147
-    },
-    {
-        "id": "PL1050",
         "type": "landing",
         "priority": 2,
         "arrival_time": 97
     },
     {
-        "id": "PL1051",
+        "id": "PL1005",
         "type": "takeoff",
         "priority": 1,
-        "arrival_time": 287
+        "arrival_time": 175
     },
     {
-        "id": "PL1052",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 135
-    },
-    {
-        "id": "PL1053",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 113
-    },
-    {
-        "id": "PL1054",
+        "id": "PL1006",
         "type": "takeoff",
         "priority": 2,
-        "arrival_time": 1
+        "arrival_time": 127
     },
     {
-        "id": "PL1055",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 24
-    },
-    {
-        "id": "PL1056",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 55
-    },
-    {
-        "id": "PL1057",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 1
-    },
-    {
-        "id": "PL1058",
+        "id": "PL1007",
         "type": "takeoff",
         "priority": 3,
-        "arrival_time": 113
+        "arrival_time": 96
     },
     {
-        "id": "PL1059",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 240
-    },
-    {
-        "id": "PL1060",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 53
-    },
-    {
-        "id": "PL1061",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 170
-    },
-    {
-        "id": "PL1062",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 44
-    },
-    {
-        "id": "PL1063",
+        "id": "PL1008",
         "type": "takeoff",
         "priority": 1,
-        "arrival_time": 77
+        "arrival_time": 264
     },
     {
-        "id": "PL1064",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 50
-    },
-    {
-        "id": "PL1065",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 188
-    },
-    {
-        "id": "PL1066",
+        "id": "PL1009",
         "type": "takeoff",
         "priority": 1,
-        "arrival_time": 73
+        "arrival_time": 126
     },
     {
-        "id": "PL1067",
-        "type": "takeoff",
-        "priority": 2,
-        "arrival_time": 269
-    },
-    {
-        "id": "PL1068",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 202
-    },
-    {
-        "id": "PL1069",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 208
-    },
-    {
-        "id": "PL1070",
+        "id": "PL1010",
         "type": "landing",
+        "priority": 1,
+        "arrival_time": 132
+    },
+    {
+        "id": "PL1011",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 45
+    },
+    {
+        "id": "PL1012",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 5
+    },
+    {
+        "id": "PL1013",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 21
+    },
+    {
+        "id": "PL1014",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 159
+    },
+    {
+        "id": "PL1015",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 64
+    },
+    {
+        "id": "PL1016",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 139
+    },
+    {
+        "id": "PL1017",
+        "type": "takeoff",
         "priority": 3,
+        "arrival_time": 93
+    },
+    {
+        "id": "PL1018",
+        "type": "landing",
+        "priority": 1,
         "arrival_time": 251
     },
     {
-        "id": "PL1071",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 117
-    },
-    {
-        "id": "PL1072",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 44
-    },
-    {
-        "id": "PL1073",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 123
-    },
-    {
-        "id": "PL1074",
+        "id": "PL1019",
         "type": "takeoff",
         "priority": 3,
-        "arrival_time": 177
+        "arrival_time": 74
     },
     {
-        "id": "PL1075",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 112
+        "id": "PL1020",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 288
     },
     {
-        "id": "PL1076",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 223
-    },
-    {
-        "id": "PL1077",
+        "id": "PL1021",
         "type": "takeoff",
         "priority": 2,
         "arrival_time": 237
     },
     {
-        "id": "PL1078",
+        "id": "PL1022",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 55
+    },
+    {
+        "id": "PL1023",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 144
+    },
+    {
+        "id": "PL1024",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 77
+    },
+    {
+        "id": "PL1025",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 204
+    },
+    {
+        "id": "PL1026",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 117
+    },
+    {
+        "id": "PL1027",
         "type": "takeoff",
         "priority": 1,
-        "arrival_time": 43
+        "arrival_time": 138
+    },
+    {
+        "id": "PL1028",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 37
+    },
+    {
+        "id": "PL1029",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 199
+    },
+    {
+        "id": "PL1030",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 29
+    },
+    {
+        "id": "PL1031",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 51
+    },
+    {
+        "id": "PL1032",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 193
+    },
+    {
+        "id": "PL1033",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 277
+    },
+    {
+        "id": "PL1034",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 210
+    },
+    {
+        "id": "PL1035",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 234
+    },
+    {
+        "id": "PL1036",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 281
+    },
+    {
+        "id": "PL1037",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 144
+    },
+    {
+        "id": "PL1038",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 249
+    },
+    {
+        "id": "PL1039",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 173
+    },
+    {
+        "id": "PL1040",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 57
+    },
+    {
+        "id": "PL1041",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 18
+    },
+    {
+        "id": "PL1042",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 115
+    },
+    {
+        "id": "PL1043",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 125
+    },
+    {
+        "id": "PL1044",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 208
+    },
+    {
+        "id": "PL1045",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 169
+    },
+    {
+        "id": "PL1046",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 100
+    },
+    {
+        "id": "PL1047",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 53
+    },
+    {
+        "id": "PL1048",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 169
+    },
+    {
+        "id": "PL1049",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 277
+    },
+    {
+        "id": "PL1050",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 112
+    },
+    {
+        "id": "PL1051",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 58
+    },
+    {
+        "id": "PL1052",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 75
+    },
+    {
+        "id": "PL1053",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 194
+    },
+    {
+        "id": "PL1054",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 266
+    },
+    {
+        "id": "PL1055",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 296
+    },
+    {
+        "id": "PL1056",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 266
+    },
+    {
+        "id": "PL1057",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 265
+    },
+    {
+        "id": "PL1058",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 76
+    },
+    {
+        "id": "PL1059",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 136
+    },
+    {
+        "id": "PL1060",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 132
+    },
+    {
+        "id": "PL1061",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 50
+    },
+    {
+        "id": "PL1062",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 86
+    },
+    {
+        "id": "PL1063",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 29
+    },
+    {
+        "id": "PL1064",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 263
+    },
+    {
+        "id": "PL1065",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 224
+    },
+    {
+        "id": "PL1066",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 84
+    },
+    {
+        "id": "PL1067",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 189
+    },
+    {
+        "id": "PL1068",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 63
+    },
+    {
+        "id": "PL1069",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 182
+    },
+    {
+        "id": "PL1070",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 95
+    },
+    {
+        "id": "PL1071",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 159
+    },
+    {
+        "id": "PL1072",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 193
+    },
+    {
+        "id": "PL1073",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 184
+    },
+    {
+        "id": "PL1074",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 180
+    },
+    {
+        "id": "PL1075",
+        "type": "landing",
+        "priority": 2,
+        "arrival_time": 195
+    },
+    {
+        "id": "PL1076",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 217
+    },
+    {
+        "id": "PL1077",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 133
+    },
+    {
+        "id": "PL1078",
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 53
     },
     {
         "id": "PL1079",
         "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 177
+        "priority": 3,
+        "arrival_time": 129
     },
     {
         "id": "PL1080",
         "type": "landing",
-        "priority": 3,
-        "arrival_time": 78
+        "priority": 2,
+        "arrival_time": 86
     },
     {
         "id": "PL1081",
         "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 161
+        "priority": 3,
+        "arrival_time": 155
     },
     {
         "id": "PL1082",
         "type": "landing",
-        "priority": 2,
-        "arrival_time": 66
+        "priority": 1,
+        "arrival_time": 4
     },
     {
         "id": "PL1083",
-        "type": "landing",
+        "type": "takeoff",
         "priority": 1,
-        "arrival_time": 297
+        "arrival_time": 206
     },
     {
         "id": "PL1084",
-        "type": "takeoff",
+        "type": "landing",
         "priority": 3,
-        "arrival_time": 204
+        "arrival_time": 147
     },
     {
         "id": "PL1085",
         "type": "takeoff",
         "priority": 2,
-        "arrival_time": 35
+        "arrival_time": 253
     },
     {
         "id": "PL1086",
-        "type": "takeoff",
-        "priority": 3,
-        "arrival_time": 244
+        "type": "landing",
+        "priority": 1,
+        "arrival_time": 17
     },
     {
         "id": "PL1087",
         "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 282
+        "priority": 3,
+        "arrival_time": 63
     },
     {
         "id": "PL1088",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 263
-    },
-    {
-        "id": "PL1089",
-        "type": "takeoff",
-        "priority": 1,
-        "arrival_time": 289
-    },
-    {
-        "id": "PL1090",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 266
-    },
-    {
-        "id": "PL1091",
-        "type": "landing",
-        "priority": 2,
-        "arrival_time": 47
-    },
-    {
-        "id": "PL1092",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 151
-    },
-    {
-        "id": "PL1093",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 217
-    },
-    {
-        "id": "PL1094",
-        "type": "landing",
-        "priority": 3,
-        "arrival_time": 35
-    },
-    {
-        "id": "PL1095",
         "type": "takeoff",
         "priority": 3,
         "arrival_time": 48
     },
     {
-        "id": "PL1096",
+        "id": "PL1089",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 172
+    },
+    {
+        "id": "PL1090",
         "type": "landing",
         "priority": 1,
-        "arrival_time": 218
+        "arrival_time": 296
+    },
+    {
+        "id": "PL1091",
+        "type": "takeoff",
+        "priority": 2,
+        "arrival_time": 19
+    },
+    {
+        "id": "PL1092",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 72
+    },
+    {
+        "id": "PL1093",
+        "type": "takeoff",
+        "priority": 1,
+        "arrival_time": 182
+    },
+    {
+        "id": "PL1094",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 156
+    },
+    {
+        "id": "PL1095",
+        "type": "landing",
+        "priority": 3,
+        "arrival_time": 159
+    },
+    {
+        "id": "PL1096",
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 121
     },
     {
         "id": "PL1097",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 41
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 39
     },
     {
         "id": "PL1098",
-        "type": "landing",
+        "type": "takeoff",
         "priority": 1,
-        "arrival_time": 205
+        "arrival_time": 170
     },
     {
         "id": "PL1099",
-        "type": "landing",
+        "type": "takeoff",
         "priority": 2,
-        "arrival_time": 42
+        "arrival_time": 96
     },
     {
         "id": "PL1100",
-        "type": "landing",
-        "priority": 1,
-        "arrival_time": 109
+        "type": "takeoff",
+        "priority": 3,
+        "arrival_time": 29
     }
 ]
