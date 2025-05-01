@@ -28,10 +28,10 @@ class AirportSchedulerApp:
         tk.Label(self.sidebar_frame, text="Menu", bg=styles.COLOR_PRIMARY, fg="white", font=styles.APP_TITLE_FONT).pack(pady=20)
 
         menu_items = [
-            ("\ud83c\udfe0 Home", self.show_home),
-            ("\u2699\ufe0f Run Schedulers", self.show_scheduler_buttons),
-            ("\ud83d\udcc8 Performance Graph", self.show_performance_graph),
-            ("\u274c Exit", self.root.quit)
+            ("Home", self.show_home),
+            ("Run Schedulers", self.show_scheduler_buttons),
+            ("Performance Graph", self.show_performance_graph),
+            ("Exit", self.root.quit)
         ]
 
         for label, command in menu_items:
@@ -51,7 +51,7 @@ class AirportSchedulerApp:
 
     def show_home(self):
         self.clear_content()
-        title = tk.Label(self.content_frame, text="\u2708\ufe0f Welcome to Airport Runway Scheduler", font=styles.APP_TITLE_FONT, bg=styles.COLOR_BG)
+        title = tk.Label(self.content_frame, text="Welcome to Airport Runway Scheduler", font=styles.APP_TITLE_FONT, bg=styles.COLOR_BG)
         title.pack(pady=40)
 
         description = tk.Label(
@@ -64,7 +64,7 @@ class AirportSchedulerApp:
 
     def show_scheduler_buttons(self):
         self.clear_content()
-        title = tk.Label(self.content_frame, text="\u2699\ufe0f Run Schedulers", font=styles.APP_TITLE_FONT, bg=styles.COLOR_BG)
+        title = tk.Label(self.content_frame, text="Run Schedulers", font=styles.APP_TITLE_FONT, bg=styles.COLOR_BG)
         title.pack(pady=20)
 
         dropdown_frame = tk.Frame(self.content_frame, bg=styles.COLOR_BG)
@@ -75,6 +75,12 @@ class AirportSchedulerApp:
         dropdown = ttk.Combobox(dropdown_frame, textvariable=self.plane_count_var, values=["100", "500", "1000", "2000", "5000"])
         dropdown.pack(side=tk.LEFT, padx=10)
         dropdown.current(0)
+
+        tk.Label(dropdown_frame, text="  Number of Runways:", font=styles.LABEL_FONT, bg=styles.COLOR_BG).pack(side=tk.LEFT)
+        self.runway_count_var = tk.StringVar()
+        runway_dropdown = ttk.Combobox(dropdown_frame, textvariable=self.runway_count_var, values=["1", "2", "3"])
+        runway_dropdown.pack(side=tk.LEFT, padx=10)
+        runway_dropdown.current(0)
 
         button_frame = tk.Frame(self.content_frame, bg=styles.COLOR_BG)
         button_frame.pack(pady=10)
@@ -89,7 +95,6 @@ class AirportSchedulerApp:
         self.log_output.pack(padx=20, pady=10, fill=tk.X)
         self.log("Log initialized...\n")
 
-        # Live Graph
         self.fig, self.ax = plt.subplots(figsize=(5, 2))
         self.canvas = FigureCanvasTkAgg(self.fig, master=self.content_frame)
         self.canvas.get_tk_widget().pack(padx=20, pady=10, fill=tk.X)
@@ -108,7 +113,7 @@ class AirportSchedulerApp:
 
         self.table = ttk.Treeview(
             table_frame,
-            columns=("plane_id", "scheduled_at", "type", "priority"),
+            columns=("plane_id", "scheduled_at", "type", "priority", "runway"),
             show="headings",
             yscrollcommand=scroll_y.set,
             xscrollcommand=scroll_x.set
@@ -121,7 +126,7 @@ class AirportSchedulerApp:
 
         for col in self.table["columns"]:
             self.table.heading(col, text=col.replace("_", " ").title())
-            self.table.column(col, anchor="center", width=200)
+            self.table.column(col, anchor="center", width=160)
 
         self.table.pack(fill=tk.BOTH, expand=True)
 
@@ -170,7 +175,8 @@ class AirportSchedulerApp:
                 item["plane_id"],
                 item["scheduled_at"],
                 item["type"],
-                item["priority"]
+                item["priority"],
+                item.get("runway", "-")
             ))
 
     def show_stats(self, schedule, ms, mode):
@@ -194,9 +200,10 @@ Average Wait Time: {avg_wait}
 
     def run_original(self):
         count = int(self.plane_count_var.get())
+        runways = int(self.runway_count_var.get())
         self.log(f"Generating {count} planes for original scheduler...")
         generate_planes(count)
-        self.status_label.config(text="\u23f3 Scheduling planes...", fg="orange")
+        self.status_label.config(text="Scheduling planes...", fg="orange")
         self.root.update()
         schedule, ms = run_original()
         self.update_live_graph(count, ms)
@@ -206,9 +213,10 @@ Average Wait Time: {avg_wait}
 
     def run_optimized(self):
         count = int(self.plane_count_var.get())
+        runways = int(self.runway_count_var.get())
         self.log(f"Generating {count} planes for optimized scheduler...")
         generate_planes(count)
-        self.status_label.config(text="\u23f3 Scheduling planes...", fg="orange")
+        self.status_label.config(text="Scheduling planes...", fg="orange")
         self.root.update()
         schedule, ms = run_optimized()
         self.update_live_graph(count, ms)
