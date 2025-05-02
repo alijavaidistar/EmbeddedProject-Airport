@@ -7,30 +7,30 @@ def optimized_scheduler(plane_list, num_runways=1, progress_callback=None):
     heap = [(p["arrival_time"], p["priority"], p["id"], p) for p in plane_list]
     heapq.heapify(heap)
 
-    runway_schedule = []
-    current_time = [0] * num_runways  # Independent clocks for each runway
+    runways = [0] * num_runways  # Availability time for each runway
+    schedule = []
+    current_time = 0
     start = time.time()
 
     count = 0
     while heap:
-        arrival_time, priority, plane_id, plane = heapq.heappop(heap)
+        _, priority, plane_id, plane = heapq.heappop(heap)
 
-        selected_runway = current_time.index(min(current_time))
-        scheduled_at = max(current_time[selected_runway], arrival_time)
+        # Find the earliest available runway
+        runway_id = min(range(num_runways), key=lambda r: runways[r])
+        scheduled_at = max(runways[runway_id], plane["arrival_time"])
+        runways[runway_id] = scheduled_at + 1
 
-        runway_schedule.append({
+        schedule.append({
             "plane_id": plane["id"],
             "scheduled_at": scheduled_at,
             "type": plane["type"],
             "priority": priority,
-            "runway": f"R{selected_runway + 1}"
+            "arrival_time": plane["arrival_time"],
+            "runway_id": runway_id + 1  # 1-based for readability
         })
 
-        current_time[selected_runway] = scheduled_at + 1
         count += 1
-
-        time.sleep(0.001)
-
         if progress_callback:
             elapsed = round((time.time() - start) * 1000, 2)
             progress_callback(count, elapsed)
@@ -39,7 +39,7 @@ def optimized_scheduler(plane_list, num_runways=1, progress_callback=None):
     elapsed_total = round((end - start) * 1000, 2)
     log_execution_time("Optimized", elapsed_total)
 
-    return runway_schedule, elapsed_total
+    return schedule, elapsed_total
 
 def run_and_time_scheduler(num_runways=1, progress_callback=None):
     planes = read_planes_data("assets/planes.json")
