@@ -12,4 +12,4 @@ COLOR_DANGER = "#FF4C4C"          # Red alerts
 COLOR_WARNING = "#FFA500"         # Orange
 COLOR_SUCCESS = "#00FF00"         # Neon green
 COLOR_BG = "#121212"              # Background
-COLOR_TEXT = "#E0E0E0"            # Light gray text
+COLOR_TEXT = "#FFFFFF"            # Light gray text

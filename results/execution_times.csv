@@ -104,3 +104,409 @@ Test,Original,1041.58
 Test,Original,1041.29
 Test,Original,1036.97
 Test,Original,20812.62
+Test,Original,1046.59
+Test,Optimized,2552.33
+Test,Original,1046.07
+Test,Original,1042.34
+Test,Original,1046.71
+Test,Optimized,2603.07
+Test,Original,1038.94
+Test,Original,1050.65
+Test,Optimized,3185.34
+Test,EDF,3038.95
+Test,RoundRobin,6118.96
+Test,PriorityPreemptive,3287.27
+Test,Original,1044.7
+Test,Original,1043.55
+Test,Original,1039.68
+Test,Original,1049.16
+Test,Original,1051.77
+Test,Original,1047.54
+Test,Optimized,0.0
+Test,EDF,171.66
+Test,RoundRobin,333.85
+Test,PriorityPreemptive,169.46
+Test,Original,1052.28
+2025-05-04 23:10:10,FCFS,1052.28
+Test,Optimized,2901.32
+2025-05-04 23:20:09,Optimized,2901.32
+Test,EDF,2919.68
+2025-05-04 23:20:21,EDF,2919.68
+Test,RoundRobin,5829.78
+2025-05-04 23:20:35,Round Robin,5829.78
+Test,PriorityPreemptive,3275.04
+2025-05-04 23:20:48,Priority Preemptive,3275.04
+Test,Optimized,3068.54
+2025-05-05 00:11:14,Optimized,3068.54
+Test,EDF,3326.36
+2025-05-05 00:11:23,EDF,3326.36
+Test,RoundRobin,6341.02
+2025-05-05 00:11:34,Round Robin,6341.02
+Test,PriorityPreemptive,3572.89
+2025-05-05 00:11:44,Priority Preemptive,3572.89
+Test,Optimized,3002.04
+2025-05-05 00:18:48,Optimized,3002.04
+Test,EDF,2956.79
+2025-05-05 00:18:56,EDF,2956.79
+Test,RoundRobin,5848.05
+2025-05-05 00:19:06,Round Robin,5848.05
+Test,PriorityPreemptive,3252.49
+2025-05-05 00:19:14,Priority Preemptive,3252.49
+Test,Optimized,2852.81
+2025-05-05 00:29:34,Optimized,2852.81
+Test,EDF,2820.5
+2025-05-05 00:29:42,EDF,2820.5
+Test,RoundRobin,5899.94
+2025-05-05 00:29:51,Round Robin,5899.94
+Test,PriorityPreemptive,2948.33
+2025-05-05 00:29:59,Priority Preemptive,2948.33
+Test,Optimized,62076.69
+2025-05-05 00:31:12,Optimized,62076.69
+Test,EDF,66446.36
+2025-05-05 00:32:27,EDF,66446.36
+Test,RoundRobin,139588.26
+2025-05-05 00:34:53,Round Robin,139588.26
+Test,PriorityPreemptive,94420.31
+2025-05-05 00:36:39,Priority Preemptive,94420.31
+Test,Original,4365.45
+2025-05-05 00:46:24,FCFS,4365.45
+Test,RoundRobin,5721.47
+2025-05-05 00:46:34,Round Robin,5721.47
+Test,Original,4076.66
+2025-05-05 01:50:31,FCFS,4076.66
+Test,RoundRobin,503
+2025-05-05 01:50:38,Round Robin,503
+Test,Original,4053.89
+2025-05-05 01:53:31,FCFS,4053.89
+Test,Original,3952.44
+2025-05-05 01:57:21,FCFS,3952.44
+Test,RoundRobin,507
+2025-05-05 01:57:27,Round Robin,507
+Test,Original,3945.36
+2025-05-05 02:18:00,FCFS,3945.36
+Test,RoundRobin,557
+2025-05-05 02:18:17,Round Robin,557
+Test,Original,3838.64
+2025-05-05 02:23:43,FCFS,3838.64
+Test,RoundRobin,551
+2025-05-05 02:23:54,Round Robin,551
+Test,PriorityPreemptive,3320.78
+2025-05-05 02:24:18,Priority Preemptive,3320.78
+Test,EDF,3106.09
+2025-05-05 02:24:26,EDF,3106.09
+Test,Optimized,2999.66
+2025-05-05 02:24:33,Optimized,2999.66
+Test,Original,4119.73
+2025-05-05 02:29:04,FCFS,4119.73
+Test,RoundRobin,500.0
+2025-05-05 02:29:31,Round Robin,500.0
+Test,Original,4553.5
+2025-05-05 02:39:31,FCFS,4553.5
+Test,RoundRobin,399.6
+2025-05-05 02:39:46,Round Robin,399.6
+Test,Optimized,2754.56
+2025-05-05 02:40:03,Optimized,2754.56
+Test,EDF,2841.71
+2025-05-05 02:40:11,EDF,2841.71
+Test,PriorityPreemptive,2829.35
+2025-05-05 02:40:18,Priority Preemptive,2829.35
+Test,Original,4066.43
+2025-05-05 02:46:41,FCFS,4066.43
+Test,RoundRobin,400
+2025-05-05 02:46:50,Round Robin,400
+Test,Original,4318.71
+2025-05-05 03:06:39,FCFS,4318.71
+Test,RoundRobin,400
+2025-05-05 03:06:48,Round Robin,400
+Test,Original,4084.69
+2025-05-05 03:16:14,FCFS,4084.69
+2025-05-05 03:16:18,Round Robin,0
+2025-05-05 03:16:23,Round Robin,0
+Test,Original,3948.24
+2025-05-05 03:19:32,FCFS,3948.24
+Test,RoundRobin,3052.379846572876
+2025-05-05 03:19:41,Round Robin,3052.379846572876
+Test,Original,4039.34
+2025-05-05 03:35:36,FCFS,4039.34
+Test,RoundRobin,3002.44
+2025-05-05 03:35:45,Round Robin,3002.44
+Test,Original,3978.29
+2025-05-05 03:45:29,FCFS,3978.29
+Test,RoundRobin,2927.75
+2025-05-05 03:45:35,Round Robin,2927.75
+Test,Original,4106.92
+2025-05-05 03:52:42,FCFS,4106.92
+Test,RoundRobin,3103.45
+2025-05-05 03:52:50,Round Robin,3103.45
+Test,Original,3989.31
+2025-05-05 04:02:19,FCFS,3989.31
+Test,RoundRobin,5847.73
+2025-05-05 04:02:26,Round Robin,5847.73
+Test,Original,3881.7
+2025-05-05 04:20:47,FCFS,3881.7
+Test,RoundRobin,39.95776176452637
+2025-05-05 04:20:51,Round Robin,39.95776176452637
+Test,Original,3948.58
+2025-05-05 04:39:44,FCFS,3948.58
+Test,RoundRobin,2937.81
+2025-05-05 04:39:50,Round Robin,2937.81
+Test,Optimized,3010.93
+2025-05-05 04:40:00,Optimized,3010.93
+Test,EDF,3189.73
+2025-05-05 04:40:08,EDF,3189.73
+Test,PriorityPreemptive,3104.57
+2025-05-05 04:40:15,Priority Preemptive,3104.57
+Test,Original,4132.63
+2025-05-05 05:20:30,FCFS,4132.63
+Test,RoundRobin,2682.62
+2025-05-05 05:20:36,Round Robin,2682.62
+Test,Optimized,2663.2
+2025-05-05 05:20:42,Optimized,2663.2
+Test,EDF,2781.1
+2025-05-05 05:20:49,EDF,2781.1
+Test,PriorityPreemptive,2818.25
+2025-05-05 05:20:57,Priority Preemptive,2818.25
+Test,Original,39122.62
+2025-05-05 05:21:46,FCFS,39122.62
+Test,Optimized,34680.35
+2025-05-05 05:22:26,Optimized,34680.35
+Test,EDF,33028.36
+2025-05-05 05:35:12,EDF,33028.36
+Test,RoundRobin,31668.56
+2025-05-05 05:35:48,Round Robin,31668.56
+Test,PriorityPreemptive,35512.3
+2025-05-05 05:36:24,Priority Preemptive,35512.3
+Test,PriorityPreemptive,20903.47
+2025-05-05 05:38:27,Priority Preemptive,20903.47
+Test,RoundRobin,41719.19
+2025-05-05 05:38:45,Round Robin,41719.19
+Test,EDF,60690.65
+2025-05-05 05:39:00,EDF,60690.65
+Test,Optimized,80797.69
+2025-05-05 05:39:15,Optimized,80797.69
+Test,Original,102291.16
+2025-05-05 05:39:29,FCFS,102291.16
+Test,Original,4029.45
+2025-05-05 05:39:46,FCFS,4029.45
+Test,Original,4098.87
+2025-05-05 05:39:56,FCFS,4098.87
+Test,Original,4217.62
+2025-05-05 05:40:05,FCFS,4217.62
+Test,Original,3925.01
+2025-05-05 05:40:12,FCFS,3925.01
+Test,Optimized,2710.11
+2025-05-05 05:40:30,Optimized,2710.11
+Test,Optimized,2943.96
+2025-05-05 05:40:39,Optimized,2943.96
+Test,Optimized,2966.02
+2025-05-05 05:40:47,Optimized,2966.02
+Test,Optimized,2840.31
+2025-05-05 05:40:55,Optimized,2840.31
+Test,EDF,2922.53
+2025-05-05 05:41:06,EDF,2922.53
+Test,EDF,2900.38
+2025-05-05 05:41:16,EDF,2900.38
+Test,EDF,2870.06
+2025-05-05 05:41:26,EDF,2870.06
+Test,EDF,2920.86
+2025-05-05 05:41:38,EDF,2920.86
+Test,RoundRobin,2728.07
+2025-05-05 05:41:52,Round Robin,2728.07
+Test,RoundRobin,2777.8
+2025-05-05 05:41:59,Round Robin,2777.8
+Test,RoundRobin,2859.74
+2025-05-05 05:42:07,Round Robin,2859.74
+Test,RoundRobin,2801.07
+2025-05-05 05:42:13,Round Robin,2801.07
+Test,PriorityPreemptive,2918.94
+2025-05-05 05:42:34,Priority Preemptive,2918.94
+Test,PriorityPreemptive,3399.9
+2025-05-05 05:42:43,Priority Preemptive,3399.9
+Test,PriorityPreemptive,3281.45
+2025-05-05 05:42:49,Priority Preemptive,3281.45
+Test,PriorityPreemptive,3123.26
+2025-05-05 05:43:00,Priority Preemptive,3123.26
+Test,PriorityPreemptive,3131.94
+2025-05-05 05:43:08,Priority Preemptive,3131.94
+Test,Original,3913.43
+2025-05-05 05:53:26,FCFS,3913.43
+Test,Original,4041.8
+2025-05-05 06:17:19,FCFS,4041.8
+Test,EDF,3192.99
+2025-05-05 06:17:25,EDF,3192.99
+Test,Optimized,3056.99
+2025-05-05 06:17:32,Optimized,3056.99
+Test,RoundRobin,3068.65
+2025-05-05 06:17:38,Round Robin,3068.65
+Test,PriorityPreemptive,3460.81
+2025-05-05 06:17:48,Priority Preemptive,3460.81
+Test,Original,4174.19
+2025-05-05 06:33:27,FCFS,4174.19
+Test,Original,3791.42
+2025-05-05 06:33:34,FCFS,3791.42
+Test,Optimized,3195.29
+2025-05-05 06:33:41,Optimized,3195.29
+Test,EDF,2942.82
+2025-05-05 06:33:47,EDF,2942.82
+Test,RoundRobin,2841.14
+2025-05-05 06:33:53,Round Robin,2841.14
+Test,PriorityPreemptive,3002.21
+2025-05-05 06:34:00,Priority Preemptive,3002.21
+Test,Original,7642.37
+2025-05-05 13:35:37,FCFS,7642.37
+Test,Optimized,5109.24
+2025-05-05 13:35:45,Optimized,5109.24
+Test,EDF,4739.7
+2025-05-05 13:35:53,EDF,4739.7
+Test,Round Robin,4995.1
+2025-05-05 13:36:02,Round Robin,4995.1
+Test,PriorityPreemptive,4442.65
+2025-05-05 13:36:11,Priority Preemptive,4442.65
+Test,Original,30607.71
+2025-05-05 15:32:31,FCFS,30607.71
+Test,Original,8243.06
+2025-05-05 15:43:15,FCFS,8243.06
+Test,Optimized,5023.985385894775
+2025-05-05 15:43:24,Optimized,5023.985385894775
+Test,EDF,5192.43
+2025-05-05 15:43:37,EDF,5192.43
+Test,Round Robin,3720.8151817321777
+2025-05-05 15:43:45,Round Robin,3720.8151817321777
+Test,PriorityPreemptive,4828.96
+2025-05-05 15:43:55,Priority Preemptive,4828.96
+Test,Round Robin,4117.0
+2025-05-05 15:54:00,Round Robin,4117.0
+Test,PriorityPreemptive,5320.52
+2025-05-05 15:54:08,Priority Preemptive,5320.52
+Test,Optimized,4668.41
+Test,Optimized,4668.41
+Test,Original,6687.54
+2025-05-05 15:54:24,FCFS,6687.54
+Test,EDF,4792.31
+2025-05-05 15:54:30,EDF,4792.31
+Test,EDF,9937.07
+2025-05-05 15:54:35,EDF,9937.07
+Test,Original,1932.81
+2025-05-05 18:10:51,FCFS,1932.81
+Test,Original,9844.79
+2025-05-05 18:11:05,FCFS,9844.79
+Test,Original,1886.73
+2025-05-05 18:11:13,FCFS,1886.73
+Test,Optimized,698.04
+Test,Optimized,698.04
+Test,EDF,885.89
+2025-05-05 18:11:28,EDF,885.89
+Test,Round Robin,712.86
+2025-05-05 18:11:33,Round Robin,712.86
+Test,PriorityPreemptive,872.7
+2025-05-05 18:11:39,Priority Preemptive,872.7
+Test,PriorityPreemptive,873.77
+2025-05-05 18:11:44,Priority Preemptive,873.77
+Test,PriorityPreemptive,855.6
+2025-05-05 18:11:53,Priority Preemptive,855.6
+Test,Original,1954.8
+2025-05-05 18:22:44,FCFS,1954.8
+Test,Original,2176.54
+2025-05-05 18:22:50,FCFS,2176.54
+Test,Original,10292.04
+2025-05-05 18:23:03,FCFS,10292.04
+Test,Optimized,3535.49
+Test,Optimized,3535.49
+Test,EDF,4312.06
+2025-05-05 18:23:21,EDF,4312.06
+Test,Round Robin,3606.7
+2025-05-05 18:23:29,Round Robin,3606.7
+Test,PriorityPreemptive,4415.74
+2025-05-05 18:23:40,Priority Preemptive,4415.74
+Test,Original,21242.1
+2025-05-05 18:24:18,FCFS,21242.1
+Test,Optimized,7044.33
+Test,Optimized,7044.33
+Test,EDF,8621.7
+2025-05-05 18:24:40,EDF,8621.7
+Test,Round Robin,7217.22
+2025-05-05 18:25:40,Round Robin,7217.22
+Test,PriorityPreemptive,8850.82
+2025-05-05 18:25:54,Priority Preemptive,8850.82
+Test,Original,1952.11
+2025-05-05 20:02:32,FCFS,1952.11
+Test,Optimized,730.57
+Test,Optimized,730.57
+Test,EDF,873.54
+2025-05-05 20:02:44,EDF,873.54
+Test,Round Robin,743.67
+2025-05-05 20:02:50,Round Robin,743.67
+Test,PriorityPreemptive,911.56
+2025-05-05 20:02:56,Priority Preemptive,911.56
+Test,Original,1875.73
+2025-05-05 20:06:34,FCFS,1875.73
+Test,Optimized,787.92
+Test,Optimized,792.18
+Test,EDF,898.76
+2025-05-05 20:06:43,EDF,898.76
+Test,PriorityPreemptive,1029.64
+2025-05-05 20:06:50,Priority Preemptive,1029.64
+Test,Round Robin,806.34
+2025-05-05 20:06:55,Round Robin,806.34
+Test,Original,10050.07
+2025-05-05 20:10:05,FCFS,10050.07
+Test,Optimized,3689.72
+Test,Optimized,3689.72
+Test,EDF,4304.36
+2025-05-05 20:10:18,EDF,4304.36
+Test,Round Robin,3588.96
+2025-05-05 20:10:25,Round Robin,3588.96
+Test,PriorityPreemptive,4393.77
+2025-05-05 20:10:33,Priority Preemptive,4393.77
+Test,Original,1931.27
+2025-05-05 20:16:43,FCFS,1931.27
+Test,Optimized,726.0
+Test,Optimized,740.63
+Test,EDF,912.38
+2025-05-05 20:16:53,EDF,912.38
+Test,Round Robin,874.54
+2025-05-05 20:16:57,Round Robin,874.54
+Test,PriorityPreemptive,890.16
+2025-05-05 20:17:02,Priority Preemptive,890.16
+Test,Original,1919.68
+2025-05-05 20:23:17,FCFS,1919.68
+Test,Optimized,743.26
+Test,Optimized,743.26
+Test,EDF,888.12
+2025-05-05 20:23:25,EDF,888.12
+Test,Round Robin,904.38
+2025-05-05 20:23:31,Round Robin,904.38
+Test,PriorityPreemptive,933.9
+2025-05-05 20:23:37,Priority Preemptive,933.9
+Test,Original,2058.52
+2025-05-05 20:25:13,FCFS,2058.52
+Test,Optimized,639.02
+Test,Optimized,649.65
+Test,EDF,796.73
+2025-05-05 20:25:22,EDF,796.73
+Test,PriorityPreemptive,848.08
+2025-05-05 20:25:26,Priority Preemptive,848.08
+Test,Round Robin,660.49
+2025-05-05 20:25:30,Round Robin,660.49
+Test,Original,1903.81
+2025-05-05 20:36:44,FCFS,1903.81
+Test,Optimized,717.6
+Test,Optimized,717.6
+Test,EDF,887.92
+2025-05-05 20:38:31,EDF,887.92
+Test,Round Robin,751.49
+2025-05-05 20:38:35,Round Robin,751.49
+Test,PriorityPreemptive,957.36
+2025-05-05 20:38:39,Priority Preemptive,957.36
+Test,Original,1033.05
+2025-05-05 20:50:59,FCFS,1033.05
+Test,Original,1963.24
+2025-05-05 21:00:59,FCFS,1963.24
+Test,Optimized,782.87
+Test,Optimized,783.87
+Test,EDF,932.47
+2025-05-05 21:01:05,EDF,932.47
+Test,Round Robin,786.73
+2025-05-05 21:01:09,Round Robin,786.73
+Test,PriorityPreemptive,940.44
+2025-05-05 21:01:13,Priority Preemptive,940.44

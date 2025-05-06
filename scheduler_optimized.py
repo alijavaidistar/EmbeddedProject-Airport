@@ -43,4 +43,12 @@ def optimized_scheduler(plane_list, num_runways=1, progress_callback=None):
 
 def run_and_time_scheduler(num_runways=1, progress_callback=None):
     planes = read_planes_data("assets/planes.json")
-    return optimized_scheduler(planes, num_runways, progress_callback)
+    
+    start_time = time.time()
+    schedule = optimized_scheduler(planes, num_runways, progress_callback)
+    end_time = time.time()
+
+    elapsed_ms = round((end_time - start_time) * 1000, 2)
+    log_execution_time("Optimized", elapsed_ms)
+    
+    return schedule, elapsed_ms

@@ -1,46 +1,60 @@
-import time
 import json
+import time
 from utils import read_planes_data, log_execution_time
 
 def round_robin_scheduler(plane_list, time_quantum=2, progress_callback=None):
-    # Simulate each plane as a task with a required time to complete (randomized for simplicity)
+    """Round Robin scheduler with accurate progress plotting for completed planes."""
+
     for plane in plane_list:
-        plane['remaining_time'] = time_quantum * 2  # simulate short job duration
+        if plane['type'].lower() == 'emergency':
+            plane['remaining_time'] = time_quantum * 1
+        elif plane['type'].lower() == 'cargo':
+            plane['remaining_time'] = time_quantum * 3
+        else:
+            plane['remaining_time'] = time_quantum * 2
 
     queue = sorted(plane_list, key=lambda x: x['arrival_time'])
     current_time = 0
     runway_schedule = []
-    start = time.time()
-    count = 0
+    total_planes = len(queue)
+    completed_planes = 0
+
+    start_time = time.time()
 
     while queue:
         plane = queue.pop(0)
         execute_time = min(plane['remaining_time'], time_quantum)
-        scheduled_at = max(current_time, plane['arrival_time'])
-        current_time = scheduled_at + execute_time
+        current_time += execute_time
         plane['remaining_time'] -= execute_time
 
         runway_schedule.append({
             "plane_id": plane["id"],
-            "scheduled_at": scheduled_at,
+            "scheduled_at": current_time - execute_time,
+            "completed_at": current_time,
             "type": plane["type"],
-            "priority": plane["priority"]
+            "priority": plane["priority"],
+            "runway_used": execute_time
         })
 
-        if plane['remaining_time'] > 0:
-            queue.append(plane)  # re-add to queue if not finished
+        if plane['remaining_time'] <= 0:
+            completed_planes += 1
+            if progress_callback:
+                elapsed = round((time.time() - start_time) * 1000, 2)
+                progress_callback(completed_planes, elapsed)
+        else:
+            queue.append(plane)
 
-        count += 1
-        time.sleep(0.001)
-        if progress_callback:
-            elapsed = round((time.time() - start) * 1000, 2)
-            progress_callback(count, elapsed)
+    total_elapsed = round((time.time() - start_time) * 1000, 2)
+    log_execution_time("Round Robin", total_elapsed)
 
-    end = time.time()
-    elapsed_total = round((end - start) * 1000, 2)
-    log_execution_time("RoundRobin", elapsed_total)
-    return runway_schedule, elapsed_total
+    return runway_schedule, total_elapsed
 
 def run_rr_scheduler(progress_callback=None):
-    planes = read_planes_data("assets/planes.json")
-    return round_robin_scheduler(planes, time_quantum=2, progress_callback=progress_callback)
+    try:
+        planes = read_planes_data("assets/planes.json")
+        if not planes:
+            raise ValueError("No plane data found.")
+        return round_robin_scheduler(planes, time_quantum=2, progress_callback=progress_callback)
+    except Exception as e:
+        print(f"[Round Robin Error] {str(e)}")
+        return [], 0
